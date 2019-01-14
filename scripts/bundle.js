@@ -29125,7 +29125,7 @@ var Home = React.createClass({displayName: "Home",
        return (
            React.createElement("div", {className: "jumbotron"}, 
                React.createElement("div", null, 
-                   React.createElement("img", {className: "center-block", src: "images/underconstruction.webp"})
+                   React.createElement("img", {className: "center-block", src: "images/underconstruction.gif"})
 
                ), 
                React.createElement("p", {className: "text-center"}, "We're under construction. ", React.createElement("br", null), " Please check back for an update soon."), 
