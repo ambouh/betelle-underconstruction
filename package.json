@@ -1,0 +1,43 @@
+{
+  "name": "project-betelle",
+  "version": "1.0.0",
+  "description": "A company's site for Betelle.net - A Custom Software Company",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp deploy",
+    "deploy": "gh-pages -d dist",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambouh/project-betelle.git"
+  },
+  "author": "Andres Mbouh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambouh/project-betelle/issues"
+  },
+  "homepage": "http://ambouh.github.io/project-betelle",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "browserify": "^11.0.1",
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-open": "^1.0.0",
+    "jquery": "^2.1.4",
+    "path": "^0.12.7",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
