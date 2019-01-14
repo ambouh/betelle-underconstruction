@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ambouh/project-betelle.git"
+    "url": "git+https://github.com/ambouh/betelle-underconstruction.git"
   },
   "author": "Andres Mbouh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ambouh/project-betelle/issues"
+    "url": "https://github.com/ambouh/betelle-underconstruction/issues"
   },
-  "homepage": "http://ambouh.github.io/project-betelle",
+  "homepage": "http://ambouh.github.io/betelle-underconstruction",
   "dependencies": {
     "bootstrap": "^3.3.5",
     "browserify": "^11.0.1",
